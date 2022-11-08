@@ -10,3 +10,69 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-color:whitesmoke;
+}
+
+.stick {
+    background-color: black;
+    height: 125px;
+    width: 30px;
+    display: flex;
+    margin: auto;
+}
+
+.traffic-light {
+    background:darkgreen;
+    height: 300px;
+    width: 110px;
+    margin: auto;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+
+
+.lights_red {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+    margin-bottom: 35px;
+    background: red;
+    border-radius: 70%;
+}
+
+.sombra_red {
+    box-shadow: 0px 0px 0 10px rgba(245, 119, 119, 0.8);
+}
+
+.lights_yellow {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+    margin-bottom: 35px;
+    background: #ffff00;
+    border-radius: 70%;
+}
+
+.sombra_yellow {
+    box-shadow: 0px 0px 0 10px rgba(245, 237, 119, 0.973);
+}
+
+.lights_green {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+    background: green;
+    border-radius: 70%;
+}
+.sombra_green {
+    box-shadow: 0px 0px 0 10px rgba(119, 245, 119, 0.932);
+}
+
+.centrador {
+    display: flex;
+    justify-content: center;
+}
